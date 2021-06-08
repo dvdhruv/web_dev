@@ -1,0 +1,128 @@
+.rec1 {
+  height: 100px;
+  width: 100px;
+  background-color: #ff2600e5;
+  position: relative;
+  left: 50px;
+  top: 240px;
+  border-radius: 5px;
+  z-index: 3;
+}
+
+.rec2 {
+  height: 100px;
+  width: 100px;
+  background-color: #00ffff;
+  position: relative;
+  left: 500px;
+  top: 100px;
+  border-radius: 5px;
+  /* animation-name: square;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-iteration-count: 2; */
+  /* animation-direction: alternate;
+  animation-fill-mode: backwards;
+  animation-play-state: running; */
+
+  animation: square 5s linear 1s 2;
+  z-index: 2;
+}
+
+@keyframes square {
+  0% {
+    left: 500px;
+    top: 100px;
+  }
+  25% {
+    left: 1000px;
+    top: 100px;
+  }
+  50% {
+    left: 500px;
+    top: 100px;
+  }
+  75% {
+    left: 0;
+    top: 100px;
+  }
+  100% {
+    left: 500px;
+    top: 100px;
+  }
+}
+
+.rec3 {
+  height: 100px;
+  width: 100px;
+  background-color: #09ff00;
+  position: relative;
+  left: 950px;
+  top: -40px;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.rect1 {
+  height: 40px;
+  width: 100px;
+  background-color: white;
+  position: relative;
+  left: 81px;
+  top: 244px;
+  border-radius: 5px;
+  z-index: 3;
+}
+.rect2 {
+  height: 40px;
+  width: 100px;
+  background-color: white;
+  position: relative;
+  left: 529px;
+  top: 104px;
+  border-radius: 5px;
+  /* animation-name: square;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-iteration-count: 2; */
+  /* animation-direction: alternate;
+  animation-fill-mode: backwards;
+  animation-play-state: running; */
+
+  animation: text 5s linear 1s 2;
+  z-index: 2;
+}
+.rect3 {
+  height: 40px;
+  width: 100px;
+  background-color: white;
+  position: relative;
+  left: 984px;
+  top: -36px;
+  border-radius: 5px;
+  z-index: 1;
+}
+@keyframes text {
+  0% {
+    left: 529px;
+    top: 104px;
+  }
+  25% {
+    left: 1029px;
+    top: 104px;
+  }
+  50% {
+    left: 529px;
+    top: 104px;
+  }
+  75% {
+    left: 29px;
+    top: 104px;
+  }
+  100% {
+    left: 529px;
+    top: 104px;
+  }
+}
