@@ -1,0 +1,5 @@
+This is not fully function.
+I have made the UI
+this app can fetch my playlist from spotify to this app.
+No music is played and you cannot make any more playlist.
+This is I can do in this time.
